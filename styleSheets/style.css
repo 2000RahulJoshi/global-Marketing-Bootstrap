@@ -1,0 +1,179 @@
+*{
+    line-height: 1 !important;
+}
+
+.fontSizeElevenPx{
+    font-size: 11px;
+}
+
+.fontSizeThirteenPx{
+    font-size: 13px;
+    font-weight: 600 !important;
+}
+
+.fontColorGrey{
+    color: #7d7d7d;;
+}
+
+.bgGrey{
+    background-color: #f6f6f6;
+}
+
+.navAnchor{
+    font-size: 10px !important;
+    line-height: 1 !important;
+    color: white;
+    opacity: 0.6;
+}
+
+.topContainer{
+    padding-bottom: 17rem;
+    background-image: url(../images/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navBarItems{
+    gap: 0.5rem;
+}
+
+.signInBtn{
+    border-radius: 18px;
+    padding: 12px 35px;
+}
+
+.width70{
+    width: 70%;
+}
+
+.width65{
+    width: 65%;
+}
+
+.topContainerHeading{
+    width: 40%;
+    padding-top: 7rem;
+    font-family: "Roboto";
+}
+
+.topContainerHeading button{
+    background-image: linear-gradient(90deg, #dd3f25 0%, #f3a331 100%);
+}
+
+.textColorWhite{
+    color: white;
+}
+
+.topContainer h2{
+    font-size: 22px;
+}
+
+.cardsShadow{
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.joinNowBtn{
+    padding: 12px 20px;
+    border-radius: 18px;
+    background-color :#f3a032;
+}
+
+.whyWeContainer{
+    padding-top: 7rem !important;
+}
+
+.whyWeCards:hover,.howWeAreWorkingCards:hover{
+    background-color: #f3a032;
+    color: white !important;
+    cursor: pointer;
+}
+
+.whyWeCards:hover > .fontColorGrey{
+    color: white;
+}
+
+.whyWeCards:hover > .joinNowButtonDiv > .joinNowBtn{
+    background-color: white;
+}
+
+.whyWeCardsContainer{
+    top: -7.5rem;
+}
+
+.whyWeTextCircle{
+    height: 25px;
+    width: 25px;
+    border: 6px solid #f3a331;
+}
+
+.readMoreAnchor{
+    color: #f3a331;
+}
+
+.advertiser{
+    padding: 5rem 0 4rem 0;
+}
+
+.advertisersPara{
+    width: 90%;
+}
+
+.advertiserCarousel{
+    right: -7rem;
+    top: 49%;
+}
+
+.agencies{
+    padding: 6rem 0 5rem 0;
+}
+
+.agencyPara{
+    width: 55%;
+}
+
+.publishers{
+    padding: 4rem 0 5rem 0 !important;
+    background-image: url(../images/publisherBgImg.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.factsAboutUs{
+    padding: 6rem 0 5rem 0;
+}
+
+.factsAboutUsPara{
+    font-weight: bold !important;
+}
+
+.factsAboutUsCards{
+    cursor: pointer;
+}
+
+.factsAboutUsCards:hover > .factsAboutUsBottomLine{
+    width: 100%;
+    background-color:#f3a331;
+}
+
+.factsAboutUsBottomLine{
+    height: 3px;
+    bottom: 0;
+    width: 0%;
+    transition: 0.5s;
+}
+
+.footerContactInfo{
+    background-color: white;
+}
+
+.footerMap{
+    background-image: url(../images/map.jpg);
+    background-size: 100% 100%;
+}
+
+
+
+
+
+

@@ -1,3 +1,85 @@
-.width90{
-    width: 90%;
+@media (max-width:450px) {
+    .width90{
+        width: 90% !important;
+    }
+
+    .width100{
+        width: 100%;
+    }
+
+    .topContainer{
+        padding-bottom: 1.5rem;
+        background-image: none;
+    }
+
+    .navLogoHeading{
+        color: #f3a032 !important;
+    }
+
+    .whyWeCardsContainer{
+        position: relative !important;
+    }
+
+    .textColorWhite{
+        color: black;
+    }
+
+    .topContainerHeading{
+        padding-top: 1rem;
+    }
+
+    .topContainerMobileImg{
+        display: block !important;
+    }
+
+    .navAnchor{
+        color: black !important;
+        font-size: 12px !important;
+        font-weight: bold !important;
+        opacity: 1;
+    }
+
+    .whyWeContainer{
+        padding-top: 0 !important;
+    }
+
+    .whyWeCardsContainer{
+        top: 0 !important;
+    }
+
+    .whyWePara{
+        word-break: break-all;
+    }
+
+    .advertisersPara,.agencyPara,.publisherPara,.factsAboutUsTopPara{
+        width: 100%;
+        word-break: break-all;
+    }
+    
+    .appStoreAndPlayStoreImgContainer{
+        justify-content:center;
+    }
+
+    .advertiser{
+        padding: 2rem 0;
+    }
+
+    .agencies{
+        padding: 2rem 0;
+    }
+
+    .agenciesContent p{
+        word-break: break-all;
+    }
+
+    .publishers{
+        padding: 2rem 0 !important;
+    }
+    .factsAboutUs{
+        padding: 2rem 0 1rem 0;
+    }
+
+    .fontSize14px{
+        font-size: 14px !important;
+    }
 }

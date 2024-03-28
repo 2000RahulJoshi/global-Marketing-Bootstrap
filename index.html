@@ -12,6 +12,49 @@
 <body>
     <div class="container-fluid parent g-0">
         <div class="container-fluid g-0 topContainer pt-3">
+
+          <!-- modal code -->
+          <div class="modal fade" id="RegisterForm" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Please fill the following details.</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="formDesign">
+                      <div class="form-group">
+                        <label for="FirstName" class="pt-3 pb-2">First Name</label>
+                        <input type="text" class="form-control" id="FirstName" aria-describedby="userName" placeholder="First name">
+                      </div>
+
+                      <div class="form-group">
+                        <label for="LastName" class="pt-3 pb-2">Last Name</label>
+                        <input type="text" class="form-control" id="LastName" aria-describedby="userName" placeholder="Last name">
+                      </div>
+                        <div class="form-group">
+                          <label for="exampleInputEmail1" class="pt-3 pb-2">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleInputPassword1" class="pt-3 pb-2">Password</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        </div>
+                        <div class="form-check mt-3">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary mt-3">Login</button>
+                      </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- navigation bar -->
           <nav class="navbar navbar-expand-lg m-auto width70 width90">
             <div class="container-fluid g-0 d-flex align-items-center">
               <a class="navbar-brand py-0" href="#">
@@ -54,37 +97,6 @@
                 </li>
                 <li>
                     <button class="signInBtn fontSizeElevenPx fw-bolder border-0" data-bs-toggle="modal" data-bs-target="#RegisterForm">SIGN UP</button>
-                    <div class="modal fade" id="RegisterForm" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                      <div class="modal-dialog">
-                        <div class="modal-content">
-                          <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="exampleModalLabel">Please enter your email and password.</h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                          </div>
-                          <div class="modal-body">
-                              <form class="formDesign">
-                                  <div class="form-group">
-                                    <label for="exampleInputEmail1" class="pt-3 pb-2">Email address</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                                  </div>
-                                  <div class="form-group">
-                                    <label for="exampleInputPassword1" class="pt-3 pb-2">Password</label>
-                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                                  </div>
-                                  <div class="form-check mt-3">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                                  </div>
-                                  <button type="submit" class="btn btn-primary mt-3">Submit</button>
-                                </form>
-                          </div>
-                          <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Login</button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
                 </li>
                 </ul>
               </div>

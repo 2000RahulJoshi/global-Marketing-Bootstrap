@@ -53,7 +53,38 @@
                     </ul>
                 </li>
                 <li>
-                    <button class="signInBtn fontSizeElevenPx fw-bolder border-0">SIGN UP</button>
+                    <button class="signInBtn fontSizeElevenPx fw-bolder border-0" data-bs-toggle="modal" data-bs-target="#RegisterForm">SIGN UP</button>
+                    <div class="modal fade" id="RegisterForm" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Please enter your email and password.</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                              <form class="formDesign">
+                                  <div class="form-group">
+                                    <label for="exampleInputEmail1" class="pt-3 pb-2">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="exampleInputPassword1" class="pt-3 pb-2">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                  </div>
+                                  <div class="form-check mt-3">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                  </div>
+                                  <button type="submit" class="btn btn-primary mt-3">Submit</button>
+                                </form>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Login</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                 </li>
                 </ul>
               </div>
@@ -62,7 +93,7 @@
           <div class="topContainerHeading d-flex flex-column align-items-center m-auto width90">
             <h1 class="textColorWhite text-center fw-bolder">Global agency online marketing</h1>
             <img src="./images/topContainerMobileImg.jpg" alt="" width="100%" class="d-none topContainerMobileImg pt-2">
-            <button class="textColorWhite border-0 signInBtn fontSizeElevenPx fw-bolder mt-3">SIGN UP RIGHT NOW</button>
+            <button class="textColorWhite border-0 signInBtn fontSizeElevenPx fw-bolder mt-3" data-bs-toggle="modal" data-bs-target="#RegisterForm">SIGN UP RIGHT NOW</button>
           </div>
         </div>
 
